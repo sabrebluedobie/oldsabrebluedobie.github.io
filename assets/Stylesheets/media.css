@@ -658,8 +658,8 @@ Media
     }
     h1#about1.logo {
         position: absolute;
-        top: 9.5vh;
-        right: 2vw;
+        top: 7.5%;
+        right: 2.5%;
     }
     h1#info.logo {
         position: absolute;
@@ -846,7 +846,7 @@ Media
         margin-left: 3.5vw;
         text-align: center;
         z-index: -2;
-        top: -10vh
+        
         
     }
     .primary-footer {
@@ -873,7 +873,7 @@ Media
     }
     h2.About {
         position: relative;
-        top: -3vh;
+        margin-top: 3%;
         font-size: 3vh;
     }
     #sabresmile, #dogs, img#profile-img {
