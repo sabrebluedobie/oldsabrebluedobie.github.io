@@ -50,6 +50,7 @@ Media
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
+    
     div.#portfolio2.logo {
         position: relative;
         display:grid;
@@ -63,6 +64,9 @@ Media
     a#info2.logo img#info3.logo {
         position: relative;
         top: -21.5vh;
+    }
+    body#privacy {
+        position: relative;
     }
     section.teaser, section.col-1-3 {
         margin: 0;
@@ -144,10 +148,13 @@ Media
         margin-top: -6vh;
         width: 60vw;
         right: 1.5vw; 
-               
 
-
-
+    }
+    h1#privacy2.logo {
+        position: relative;
+        top: -16vh;
+        font-weight: 400;
+        margin-right: 1.5vw;
     }
     div.logo {
         position: relative;
@@ -506,17 +513,25 @@ Media
     position: relative;
     display: none;
    }
-   body.index {
-    position: absolute;
-    margin: 0 1.5vw;
-   }
-    
+   
+    body#privacy {
+        color: #fff;
+    }
     section.row-alt {
         z-index: -2;
     }
     div#back {
         position: relative;
         z-index: -2;
+    }
+    u {
+        color: #fff;
+    }
+    span {
+        color: #fff;
+    }
+    li {
+        color: #fff;
     }
     @media screen and (orientation: portrait) {
     }

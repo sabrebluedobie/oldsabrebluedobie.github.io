@@ -104,8 +104,12 @@ a.privacy {
     color: #ffffff;
 }
 span.content, span#policy {
+    display: inline-block;
+    position: relative;
+    margin: 0 28%;
+    text-align: center;
     color:#dfe2e5;
-    margin: 0 44vw;
+    
     
 }
 p.documentTitle {
