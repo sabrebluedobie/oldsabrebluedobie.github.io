@@ -50,7 +50,7 @@ Media
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
-    
+
     div.#portfolio2.logo {
         position: relative;
         display:grid;
@@ -532,6 +532,12 @@ Media
     }
     li {
         color: #fff;
+    }
+    div#outputPage {
+        z-index: -2;
+    }
+    span#policy.content {
+        z-index: -2;
     }
     @media screen and (orientation: portrait) {
     }

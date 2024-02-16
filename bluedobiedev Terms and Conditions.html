@@ -3,6 +3,7 @@
             <head>
             <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
             <title>LawDepot's Website Terms and Conditions</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
             <style type="text/css">
             @page{margin:90px 50px 50px;@prince-overlay{content:flow(watermark)}@top{content:flow(header);vertical-align:bottom;padding:50px 0 20px}@bottom{content:flow(footer);margin-bottom:30px}@bottom-left{content:string(copyText, last);width:0;overflow:visible;white-space:nowrap;font-family:myriad-pro,sans-serif;font-size:9pt;color:#bcbec0}}@page :first{margin-top:50px;@top{content:flow(firstHeader)}@bottom{content:flow(firstFooter);margin-bottom:30px}}.templated .imageList{display:block;margin-left:-25px;margin-bottom:30px}.templated .imageList .imageAndData{display:inline-block;vertical-align:top;margin-left:25px;margin-top:30px}.templated .imageList .imageAndData .imageWrapper{display:flex;align-items:center;justify-content:center}.templated .imageList .imageAndData .imageWrapper img{max-width:100%;max-height:100%}.templated .imageList .imageAndData .comment{display:block;overflow-wrap:break-word}.templated .copyright{visibility:hidden;height:0;string-set:copyText content()}.templated .currentPageNum{content:counter(page)}.templated .totalPageNum{content:counter(pages)}.templated .header{flow:static(header)}.templated .firstHeader{flow:static(firstHeader)}.templated .footer{flow:static(footer)}.templated .firstFooter{flow:static(firstFooter)}.templated .printWatermark{flow:static(watermark)}.templated .pageBreak{page-break-before:always;display:block}.templated .blankLine{display:block;border-bottom:1px solid #000}.templated .keepTogether,.templated .signatureEntity{page-break-inside:avoid}.templated .outputDocument{counter-reset:page 1 pages 1;prince-page-group:start;string-set:copyText ""}.templated li ol:first-child,.templated li ol:first-child>li:first-child,.templated li ul:first-child,.templated li ul:first-child>li:first-child{margin-top:0}.templated .inlineLogoHeader{display:flex;margin-bottom:30px;align-items:center;justify-content:center}.templated .inlineLogoHeader .imageList,.templated .inlineLogoHeader .imageAndData,.templated .inlineLogoHeader .keepTogether p:last-child{margin:0}.templated .inlineLogoHeader .imageWrapper{padding-right:25px}.sm .templated .imageList{margin-bottom:15px}.sm .templated .imageList div{margin-top:15px}@media screen{.templated .header,.templated .footer,.templated .firstHeader,.templated .firstFooter,.templated .copyright,.templated .printWatermark{display:none}}@media print{.LDCopyright,.watermark{display:none}}
 
@@ -375,6 +376,37 @@ body .blankLine {display:block; border-bottom:solid 1px black;}body ol,body ul{m
             @media only screen and (max-device-width: 1024px) {body{ -webkit-text-size-adjust:100%; -moz-text-size-adjust:100%; -ms-text-size-adjust:100%; }}</style>
             </head>
             <body>
+               <header id="navbar" style="z-index: 0;">
+			<nav class="navbar-container container">
+			  <a href="index.html" class="home-link style="z-index: 0;" 
+				<div class="navbar-logo"><img class="navbar-logo" src="assets/images/home/bluedobielogo-1.png" alt="bluedobie logo"></div>
+				<h2 class="home-link">#bluedobie Developing Home</h2>
+			  </a>
+			  <button
+				type="button"
+				id="navbar-toggle"
+				aria-controls="navbar-menu"
+				aria-label="Toggle menu"
+				aria-expanded="false"
+			  >
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <div id="navbar-menu" aria-labelledby="navbar-toggle">
+				<ul class="navbar-links">
+				  <li class="navbar-item"><a class="navbar-link" href="aboutMe.html">About</a></li>
+				  <li class="navbar-item"><a class="navbar-link" href="schedule.html">Schedule</a></li>
+				  <li class="navbar-item"><a class="navbar-link" href="Portfolio.html">Portfolio</a></li>
+				  <li class="navbar-item"><a class="navbar-link" href="Contact.html">Contact</a></li>
+				</ul>
+			  </div>
+			</nav>
+         <script src="index.js"></script>
+		  </header>
+		  
+
+
             <div id="outputPage" class="ContractText">
             <div class="format-html">
 		<div data-exp="simple2" class="outputVersion1">
@@ -382,9 +414,9 @@ body .blankLine {display:block; border-bottom:solid 1px black;}body ol,body ul{m
 	<span style="line-height:18.0pt;" class="content">Website Terms and Conditions</span>
 	<span style="line-height:18.0pt;" class="pageNumbers">Page <span class="currentPageNum"></span> of <span class="totalPageNum"></span></span></div><div class=" footer"></div><div class=" firstHeader"></div><div class=" firstFooter">
 	<span style="line-height:18.0pt;" class="pageNumbers">Page <span class="currentPageNum"></span> of <span class="totalPageNum"></span></span></div>
-	<p style="line-height:18.0pt;font-size:12.0pt;line-height:18.0pt;font-family:Times New Roman;color:#fff;text-align:Center;"><span style="font-style:normal;font-weight:bold;text-decoration:underline;">TERMS AND CONDITIONS</span>
+	<p style="line-height:18.0pt;font-size:12.0pt;line-height:18.0pt;font-family:Times New Roman;color:#fff;text-align:Center;"><span style="font-style:normal;font-weight:bold;text-decoration:underline; z-index: -2;">TERMS AND CONDITIONS</span>
 	</p>
-	<p style="line-height:18.0pt;font-size:12.0pt;line-height:18.0pt;font-family:Times New Roman;color:#fff;text-align:Left;">These terms and conditions (the "Terms and Conditions") govern the use of <span style="font-style:normal;font-weight:bold;">www.bluedobiedev.com</span> (the "Site"). This Site is owned and operated by Melanie Brown. This Site is a portfolio.<br><br>By using this Site, you indicate that you have read and understand these Terms and Conditions and agree to abide by them at all times.
+	<p style="line-height:18.0pt;font-size:12.0pt;line-height:18.0pt;font-family:Times New Roman;color:#fff;text-align:Left; z-index: -2;">These terms and conditions (the "Terms and Conditions") govern the use of <span style="font-style:normal;font-weight:bold;">www.bluedobiedev.com</span> (the "Site"). This Site is owned and operated by Melanie Brown. This Site is a portfolio.<br><br>By using this Site, you indicate that you have read and understand these Terms and Conditions and agree to abide by them at all times.
 	</p><div>
 	<p style="line-height:18.0pt;font-size:12.0pt;line-height:18.0pt;font-family:Times New Roman;color:#fff;text-align:Left;"><span style="font-style:normal;font-weight:bold;text-decoration:underline;">Intellectual Property</span><br>All content published and made available on our Site is the property of Melanie Brown and the Site's creators. This includes, but is not limited to images, text, logos, documents, downloadable files and anything that contributes to the composition of our Site.
 	</p></div><div>
