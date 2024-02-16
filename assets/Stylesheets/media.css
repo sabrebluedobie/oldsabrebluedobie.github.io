@@ -609,7 +609,7 @@ Media
     }
     a.payment {
         position: relative;    margin: 0;
-        top: -40vh;
+        top: -10%;
         line-height: 5vh;
     }
     #coupon {
@@ -894,7 +894,7 @@ Media
         position: relative;
         margin: auto;
         width: max-content;
-        width: 400px;
+        width: 100%;
         min-width: max-content;
         max-height: 90%;
         height: 2900px;
