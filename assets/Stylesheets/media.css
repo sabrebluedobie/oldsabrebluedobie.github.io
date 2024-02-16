@@ -590,6 +590,13 @@ Media
         z-index: -1;
         top: 0vh;
     }
+    img#portfolio4 {
+        position: relative;
+        top: 0;
+        margin-top: -99%;
+        left: 0;
+        max-width: 75%;
+    }
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
@@ -611,6 +618,7 @@ Media
         position: relative;    margin: 0;
         top: -10%;
         line-height: 5vh;
+        
     }
     #coupon {
         font-size: 2.5vh;
