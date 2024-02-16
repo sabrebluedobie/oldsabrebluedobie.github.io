@@ -635,14 +635,12 @@ Media
     img.frontpgimg {
         position: relative;
         min-width: auto;
-        min-width: -moz-fit-content;
-        max-width: 40vw;
-        max-height: auto;
-        max-height: -moz-fit-content;
+        max-width: 40%;
+        max-height: 10%;
         margin-left: auto;
         margin-right: auto;
         background-color: aliceblue;
-        top: -25;
+        margin-top: 
     }
     .primary-header a:hover {
         display: none;
@@ -663,10 +661,10 @@ Media
         top: 9.5vh;
         right: 2vw;
     }
-    h1#info {
+    h1#info.logo {
         position: absolute;
-        margin-top: 7.5vh;
-        margin-right: 2.5vw;
+        top: -2.5%;
+        right: 0;
     }
     h1#portfolio {
         position: relative;
@@ -766,6 +764,7 @@ Media
         position: relative;
         font-size: 2vh;
         line-height: 3vh;
+        top: -5%;
     }
     i.statcaption {
         display:grid;
@@ -812,11 +811,11 @@ Media
     }
     h3.caption2 {
         position: relative;
-        top: -30vh;
+        margin-top:;
         color: #fff;
         text-align: center;
     }
-    img.con
+   
     h2.caption4 {
         margin: 5vh auto;
         position: relative;
@@ -824,12 +823,16 @@ Media
         padding: 0;
         top: -15vh;
     }
+    a.btn.btn-alt {
+        position: relative;
+        margin-top: 5%;
+    }
     .btn-alt {
         position: relative;
         border: 0.06944444444444445vw solid #fff;
         padding: 1.394700139470014vh 5.0833333333333335vw;
         margin: 0 29vw;
-        top: -10vh;
+    
         
     }
    
@@ -843,6 +846,7 @@ Media
         margin-left: 3.5vw;
         text-align: center;
         z-index: -2;
+        top: -10vh
         
     }
     .primary-footer {
