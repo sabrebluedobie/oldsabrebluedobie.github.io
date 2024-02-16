@@ -653,8 +653,8 @@ Media
     }
     h1#schedule {
         position: absolute;
-        margin-top: 9vh;
-        margin-right: 1.5vw;
+        margin-top: 16%;
+        margin-right: 4.5%;
     }
     h1#about1.logo {
         position: absolute;
@@ -898,7 +898,7 @@ Media
         min-width: max-content;
         max-height: 90%;
         height: 2900px;
-        top: -20vh;
+        margin-top: 35%; 
         left: -2vw;
         
         z-index:-2;
