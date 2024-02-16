@@ -588,7 +588,7 @@ Media
         position: absolute;
         max-width: 25%;
         z-index: -1;
-        top: 1vh;
+        top: 0vh;
     }
     img#about2.logo a#about3.logo {
         top: 1vh;
@@ -702,7 +702,7 @@ Media
         font-size: 2vh;
         position: absolute;
         text-align: right;
-        margin-left: 35vw;
+        right: 0;
         padding: 0;
         margin-top: 0;
         line-height: 3vh;
