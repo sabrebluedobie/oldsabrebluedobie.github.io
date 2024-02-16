@@ -133,8 +133,11 @@ Media
     }
     h1#about1.logo {
         position: absolute;
-        top: 9.5vh;
+        top: 0;
         right: 2vw;
+        margin-top: 5%;
+        color:#042d4d;
+        font-weight: bold;
     }
     h1#info.logo {
         position: absolute;
@@ -347,22 +350,28 @@ Media
         top:-5vh;
     }
     
-    .aboutarticle {
+    p.aboutarticle {
         position: relative;
-        top: -5vh;
-        font-size: 2.5vh;
+        font-family: Arapey, 'Times New Roman', 'Times New Roman', Times, serif;
+        font-style:normal;
+        margin-top: 5%;
+        font-size: 1.5vh;
         line-height: 4vh;
+        color:#042d4d;
     }
     h2.About {
         position: relative;
-        top: -3vh;
+        
         font-size: 3vh;
+        color:#042d4d;
     }
-    #sabresmile, #dogs, img#profile-img {
+    img#sabresmile {
         position: relative;
         margin: auto;
+        top: 0;
         max-width: 80%;
-        margin-top: 3vh;
+        margin-top: -40%;
+        border: 5px solid goldenrod;
     }
     p.quote {
         position: relative;
@@ -650,6 +659,17 @@ Media
         background-color: aliceblue;
         margin-top: 
     }
+
+    img#profile.profilepic {
+        position: relative;
+        min-width: none;
+        width: 80%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 10%;
+        border: 5px solid goldenrod;
+        
+    }
     .primary-header a:hover {
         display: none;
     }
@@ -666,8 +686,12 @@ Media
     }
     h1#about1.logo {
         position: absolute;
-        top: 9.5%;
+        top: 0;
+        margin-top: 17.5%;
         right: 2.5%;
+    }
+    body.about {
+        background-color: #FFFFF0;
     }
     h1#info.logo {
         position: absolute;
