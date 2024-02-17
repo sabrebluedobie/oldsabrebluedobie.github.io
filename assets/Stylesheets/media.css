@@ -696,7 +696,8 @@ Media
         max-height: 10%;
         margin-left: auto;
         margin-right: auto;
-        background-color: aliceblue;
+        background-color: #82aeb1;
+        border: 2px solid #fff;
         margin-top: 
     }
 
@@ -707,7 +708,7 @@ Media
         max-width: 100%;
         max-height: 100%;
         margin-left: 10%;
-        border: 5px solid goldenrod;
+        border: 5px solid #df8642;
         z-index: -2;
         
     }
@@ -732,7 +733,7 @@ Media
         right: 2.5%;
     }
     body.about {
-        background-color: #FFFFF0;
+        background-color: #042d4d;
     }
     h1#info.logo {
         position: absolute;
@@ -779,7 +780,8 @@ Media
         line-height: 3vh;
         display: inline-block;
         z-index: -1;
-        color: #fff;
+        color: #df8642;
+    
        
     }
     h1#contact3 {
@@ -803,19 +805,19 @@ Media
     }
     div.text {
         position: relative;
-        color: #000;
+        color: #82aeb1;
     }
     div.text1 {
         position: relative;
-        color: #fff;
+        color: #82aeb1;
         font-family: 'Arapey', 'Times New Roman', serif;
         font-style: italic;
     }
     h3.click {
         position: relative;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
         text-align: center;
-        color:cornsilk
+        color:#df8642;
     }
     .heroimg {
         position: relative;
@@ -832,20 +834,14 @@ Media
         position: relative;
     }
     p.caption3 {
-        color: #d2dde6;
+        color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
         font-size: 2vh;
         line-height: 3vh;
         top: -5%;
     }
-    i.statcaption {
-        display:grid;
-        border: 2px solid #042d4d;
-        background-color: lightgray;
-        margin: 0;
-        padding: 0 1.5vw;
-    }
+    
     h3.caption2 {
         text-decoration: underline;
         font-weight: bold;
@@ -856,7 +852,7 @@ Media
         position: relative;
         top: 9vh;
         z-index: -2;
-        color: lightblue;
+        color: #82aeb1;
         
     }
     .iframe-container {
@@ -879,13 +875,13 @@ Media
     }
     h5.caption1 {
         position: relative;
-        color:#fff;
+        color:#82aeb1;
         top: vh;
     }
     h3.caption2 {
         position: relative;
         margin-top:;
-        color: #fff;
+        color: #df8642;
         text-align: center;
     }
    
@@ -902,7 +898,7 @@ Media
     }
     .btn-alt {
         position: relative;
-        border: 0.06944444444444445vw solid #fff;
+        border: 0.06944444444444445vw solid #eca925;
         padding: 1.394700139470014vh 5.0833333333333335vw;
         margin: 0 29vw;
     
@@ -1038,16 +1034,16 @@ Media
         text-align: center;
         margin-top: 25vh;
         margin-bottom: 2.5vh;
-        color:darkslateblue;
+        color:#82aeb1;
         z-index: -2;
         
     }
     p.portfolio {
         position: relative;
-        font-size: 2.5vh;
+        font-size: 2vh;
         line-height: 3.5vh;
         text-align: left;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
         z-index: -2;
         
     }
@@ -1114,6 +1110,10 @@ Media
     div#back {
         position: relative;
         z-index: -2;
+    }
+    p.Kenspage {
+        font-size: 2.25vh;
+        line-height: 2.75vh;
     }
     @media screen and (orientation: portrait) {
     }
