@@ -85,14 +85,41 @@ Content-Security-Policy: default-src: none;
 Typography
 ================================================
 */
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('OPTIMA.woff') format('woff');
+}
+@font-face {
+    font-family: 'Optima Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Italic'), url('Optima_Italic.woff') format('woff');
+    }
+    
 
+    @font-face {
+    font-family: 'Optima Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Medium'), url('Optima Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Optima Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+    }
 
 h1, h3, h4, h5, p {
     margin-bottom: 2.2vh;
 }
 
 body {
-    color:#dfe2e5;
+    color:#042d4d;
     margin: 2.5vw 2.5vh;
 }
 p.privacy {
@@ -101,7 +128,7 @@ p.privacy {
     margin: 2vh 2vw;
 }
 a.privacy {
-    color: #ffffff;
+    color: #82aeb1;
 }
 span.content, span#policy {
     display: inline-block;
@@ -140,7 +167,7 @@ Buttons
 
 
 .btn {
-    color: #fff;
+    color: #eca925;
     cursor: pointer;
     border-radius: 5vw;
     display: inline-block;
@@ -151,15 +178,15 @@ Buttons
 }
 
 .btn-alt {
-    border: 0.06944444444444445vw solid #fff;
+    border: 0.06944444444444445vw solid #eca925;
     padding: 1.394700139470014vh 2.0833333333333335vw;
     margin: 0 40vw;
     text-align: center;
 }
 
 .btn-alt:hover {
-    background: #fff;
-    color: #648880;
+    background:#df8642;
+    color: #042d4d;
 }
 div.dots {
     text-align: center;
@@ -184,7 +211,7 @@ section.hero.container {
     margin: 0px;
 }
 .hero {
-    color: #fff;
+    color: #847983;
     padding-left: 5vw;
     padding-top: 5vh;
     line-height: 4.4vh;
@@ -200,7 +227,7 @@ h3.click {
 
 
 .teaser a:hover h3 {
-    color: #a9b2b9;
+    color: #042d4d;
 }
 
 .teaser img {
@@ -226,7 +253,7 @@ h3.click {
 }
 
 article.description {
-    color:#042d4d;
+    color:#847983;
     max-width: 90vw;
     margin-left: 5vw;
     margin-right: 10vw;
@@ -235,7 +262,7 @@ article.description {
 }
 article.description1 {
     font-family: 'Arapey', serif;
-    color: #042d4d;
+    color: #847983;
     max-width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -244,7 +271,7 @@ article.description1 {
     
 }
 p.quote, b {
-    color:#fff;
+    color:#82aeb1;
     font-size: 2.25vh;
     text-align: center;
 }
@@ -260,7 +287,7 @@ h2.caption4 {
     text-align: center;
 }
 article.wizard {
-    color:#f6f1d3;
+    color:#eca925;
     font-size: 2.5vh;
     line-height: 3.5vh;
     margin: 5vh 5vw 0 5vw;
@@ -272,7 +299,7 @@ h2.wizard {
 }
 h3.wizard {
     font-size: 3.5vh;
-    color:#cbe2c1;
+    color:#eca925;
     font-style: italic;
     font-family: Times, 'Times New Roman', serif;
     text-align: center;
@@ -312,15 +339,15 @@ Rows
 }
 
 .row {
-    background: #fff;
+    background: #042d4d;
     padding: 9.205020920502092vh 0 6.136680613668061vh 0;
 }
 
 .row-alt {
-    background: #cbe2c1;
-    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-    background: linear-gradient(to right, #128783, #b7ebf2);
+    background: #042d4d;
+    background: -webkit-linear-gradient(to right, #042d4d, #847983);
+    background: -moz-linear-gradient(to right, #042d4d, #847983);
+    background: linear-gradient(to right, #042d4d, #847983);
     padding: 6.136680613668061vh 0 3.0683403068340307vh 0;
 }
 .bookingpg {
@@ -343,7 +370,7 @@ Rows
     height:4.323570432357044vh;
 }
 footer {
-    color:#aad0c8;
+    color:#eca925;
 }
 
 /*
@@ -376,7 +403,7 @@ img.frontpgimg {
 .heroimg {
     max-width: 75%;
     border-width: 25px;
-    border-color: #8fada7;
+    border-color: #847983;
     border-style: solid;
 }
 
@@ -433,13 +460,13 @@ Primary footer
 .primary-footer small {
     float:left;
     font-weight: 400;
-    color: #aad0c8;
+    color: #82aeb1;
 }
 
 .primary-footer {
     padding-bottom: 44px;
     padding-top: 44px;
-    color: #abc5bf;
+    color: #DF8642;
     font-size: 14px;
 }
 
@@ -450,13 +477,13 @@ Custom Styles
 */
 
 body {
-    background: #293f50;
-    color:#888;
+    background: #042d4d;
+    color:#847983;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
-    color: #8fada7
+    color: #847983
 }
 img.sabresprite {
     display: none;
@@ -477,14 +504,14 @@ img.sabrespritereg {
    color:#042d4d;
 }
 .caption1, .caption3 {
-    color:#021b2d;
+    color:#847983;
 }
 .caption1 {
     font-size: 1.5277777777777777vw;
     text-decoration: underline;
 }
 .caption2 {
-    color: #556a65;
+    color: #847983;
 }
 .caption3 {
     font-weight: 300;
@@ -492,7 +519,7 @@ img.sabrespritereg {
 p.caption3 {
     font-family: 'Arapey', serif;
     font-style: italic;
-    color: #021b2d;
+    color: #847983;
     font-size: 1.5277777777777777vw;
 }
 h3.caption2 {
@@ -504,7 +531,7 @@ h3.caption2 {
     margin: auto;
 }
 h1.lead {
-    color: #293f50;
+    color: #847983;
     font-size: 7vh;
     line-height: 8vh;
     font-weight: bold;
@@ -514,7 +541,7 @@ h1.lead {
     text-decoration: underline;
 }
 .label {
-    color: #44655f;
+    color: #042d4d;
 }
 .lead.container {
     display: inline-block;
@@ -526,7 +553,7 @@ p.portfolio {
     line-height: 6.5vh;
     text-align: center;
     margin: 0 5vw;
-    color:#042d4d;
+    color:#847983;
 }
 a.citation {
     text-decoration: underline;
@@ -568,7 +595,7 @@ iframe.bookings {
     font-size: 3vh;
     font-style:italic;
     line-height: 5vh;
-    color: #a9b2b9;
+    color: #847983;
 }
 .aboutnav {
     margin-bottom: 5%;
@@ -584,19 +611,19 @@ h2.About {
 #coupon {
     text-align: center;
     font-size: 4vh;
-    color:cornsilk;
+    color:#DF8642;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 3vh;
-    border: 2px solid cornsilk;
+    border: 2px solid #DF8642;
     padding: 2vh 0;
 }
 h3.stats {
-    color:#042d4d;
+    color:#847983;
     font-size: 5.5vh;
     font-weight: 400;
     border: 3px solid #042d4d;
     padding: 1.5vh 0;
-    background-color: lightgoldenrodyellow;
+    background-color: #042d4d;
     display:grid;
     place-items: center;
 }
@@ -625,19 +652,7 @@ a.payment {
     background-color: #dfe2e5;
 
 }
-i.statcaption {
-    
-    display:-ms-flexbox;
-    display: flex;
-    padding: 0;
-    margin:0 auto;
-    float: inline-start;
-    font-weight: 400;
-    font-size: 2.5vh;
-    color: #293f50;
-    border: 2px solid #042d4d;
-    background-color: lightgray;
-}
+
     
 .frame {
     margin-bottom: 2.5%;
@@ -653,9 +668,9 @@ h2.Kenspage, h2#Kensname {
     padding: 1.5vh 0 1.5vh 0;
     font-size: 6.75vh;
     
-    border: 2px solid #3f4346;
-    background-color: #3f4346;
-    color:orange;
+    border: 2px solid #4B464A;
+    background-color: #4B464A;
+    color:#82aeb1;
     font-weight: 400;
     align-items: center;
     text-align: center;
@@ -663,14 +678,14 @@ h2.Kenspage, h2#Kensname {
     
 }
 div#back {
-    background-color:#9ccdf0;
+    background-color:#042d4d;
     margin: 0;
     padding: 0;
     width: 100%;
     
 }
 section#Kens.row {
-    background-color: #9ccdf0;
+    background-color: #042d4d;
 }
 h2.label {
     display: grid;
@@ -679,24 +694,26 @@ h2.label {
     text-align: center;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 2px solid #3f4346;
-    background-color:#3f4346;
-    color: orange;
+    border: 2px solid #4B464A;
+    background-color:#4B464A;
+    color: #82aeb1;
     margin: 0;
 }
 h5.Kenspage {
     text-decoration: underline;
     margin-top: 7.5vh;
     font-size: 4vh;
-    color: #000;
+    color: #df8642;
 
 }
 p.Kenspage {
-    font-size: 3.5vh;
-    line-height: 4.5vh;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    display: inline;
+    font-size: 2vh;
+    line-height: 3vh;
+    font-family: 'Optima', Arial, Helvetica, sans-serif;
     margin: auto 3.5vw;
-    color: #3f4346;
+    color: #847983;
 }
 img.Kenspage {
     display: grid;
@@ -719,7 +736,7 @@ i.Kenspage, i.Kenslogo, i.Kensicon {
     position: relative;
     text-align: center;
     font-size: 2.5vh;
-    color: #3f4346;
+    color: #df8642;
 }
 
 h1 {
@@ -737,7 +754,7 @@ h2.contact, h2.contactform {
     padding: 0;
     margin: auto;
     text-align: center;
-    color: #023254;
+    color: #847983;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -751,7 +768,7 @@ h4 {
 }
 
 h5 {
-    color: #3f4346;
+    color: #847983;
     font-size: 2.4390243902439024vw;
     font-weight: 400;
     text-transform: uppercase;
@@ -772,26 +789,26 @@ Links
 */
 
 a {
-    color: #648880;
+    color: #eca925;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a9b2b9;
+    color: #df8642;
 }
 
 p a {
-    border-bottom: 1px solid #dfe2e5;
+    border-bottom: 1px solid #eca925;
 }
 
 .primary-header a,
 .primary-footer a {
-    color: #fff;
+    color: #eca925;
 }
 
 .primary-header a:hover,
 .primary-footer a:hover {
-    color: #648880;
+    color: #df8642;
 }
 /*
 ======================================
@@ -837,7 +854,7 @@ Speakers
 */
 
 .speaker-info {
-    border: 0.17421602787456447vw solid #dfe2e5;
+    border: 0.17421602787456447vw solid #847983;
     border-radius: 0.8710801393728222vw;
     margin-top: 12.273361227336123vh;
     padding: 3.0683403068340307vh 0;

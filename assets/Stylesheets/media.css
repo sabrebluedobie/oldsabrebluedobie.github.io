@@ -83,9 +83,13 @@ Media
         top:-30vh;
     }
     a.payment {
-        position: relative;    margin: 0;
-        top: -40vh;
+        position: relative;
+        display: block;
+        margin: 0;
+        top: -10vh;
         line-height: 5vh;
+        border: 2px solid #df8642;
+        box-shadow: 1px 1px #82aeb1;
     }
     #coupon {
         font-size: 2.5vh;
@@ -114,7 +118,8 @@ Media
         max-height: -moz-fit-content;
         margin-left: auto;
         margin-right: auto;
-        background-color: aliceblue;
+        background-color: #82aeb1;
+        border: 2px solid #fff;
         top: -25;
     }
     .primary-header a:hover {
@@ -135,8 +140,8 @@ Media
         position: absolute;
         top: 0;
         right: 2vw;
-        margin-top: 5%;
-        color:#042d4d;
+        margin-top: 20%;
+        color:#df8642;
         font-weight: bold;
     }
     h1#info.logo {
@@ -170,6 +175,7 @@ Media
     div.text {
         font-family: 'Arapey', 'Times New Roman', Times, serif;
         font-style: italic;
+        color: #82aeb1;
     }
     div#portfolio2 {
         position: relative;
@@ -193,7 +199,7 @@ Media
         line-height: 3vh;
         display: inline-block;
         z-index: -1;
-        color: #fff;
+        color: #df8642;
        
     }
     h1#contact3.logo {
@@ -211,6 +217,7 @@ Media
     div.slideshow-container1 {
         position: relative;
         z-index: -1;
+        background-color: #82aeb1;
     }
     div.dots {
         text-align: center;
@@ -218,11 +225,11 @@ Media
     }
     div.text {
         position: relative;
-        color: #000;
+        color: #82aeb1;
     }
     div.text1 {
         position: relative;
-        color: #fff;
+        color: #847983;
         font-family: 'Arapey', 'Times New Roman', serif;
         font-style: italic;
     }
@@ -230,7 +237,9 @@ Media
         position: relative;
         font-family: 'Arapey', 'Times New Roman', Times, serif;
         text-align: center;
-        color:cornsilk
+        font-size: 2.25vh;
+        color:#df8642;
+        text-shadow: 1px 1px 1px #847983;
     }
     .heroimg {
         position: relative;
@@ -247,7 +256,7 @@ Media
         position: relative;
     }
     p.caption3 {
-        color: #d2dde6;
+        color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
         display: block;
@@ -256,13 +265,7 @@ Media
         top: 7.5vh;
         margin: auto 3.5vw;
     }
-    i.statcaption {
-        display:grid;
-        border: 2px solid #042d4d;
-        background-color: lightgray;
-        margin: 0;
-        padding: 0 1.5vw;
-    }
+    
     h3.caption2 {
         text-decoration: underline;
         font-weight: bold;
@@ -271,9 +274,9 @@ Media
     h2.hook {
         margin: 5vh auto;
         position: relative;
-        top: -8vh;
+        top: -6vh;
         z-index: -2;
-        color: lightblue;
+        color: #82aeb1;
         
     }
     .iframe-container {
@@ -296,13 +299,13 @@ Media
     }
     h5.caption1 {
         position: relative;
-        color:#fff;
+        color:#847983;
         top: vh;
     }
     h3.caption2 {
         position: relative;
         top: -30vh;
-        color: #fff;
+        color: #df8642;
         text-align: center;
     }
     img.con
@@ -315,7 +318,7 @@ Media
     }
     .btn-alt {
         position: relative;
-        border: 0.06944444444444445vw solid #fff;
+        border: 0.06944444444444445vw solid #eca925;
         padding: 1.394700139470014vh 5.0833333333333335vw;
         margin: 0 29vw;
         top: -10vh;
@@ -352,33 +355,40 @@ Media
     
     p.aboutarticle {
         position: relative;
-        font-family: Arapey, 'Times New Roman', 'Times New Roman', Times, serif;
-        font-style:normal;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: normal;
         margin-top: 5%;
-        font-size: 1.5vh;
+        font-size: 1.75vh;
         line-height: 4vh;
-        color:#042d4d;
+        color:#847983;
     }
     h2.About {
         position: relative;
         
         font-size: 3vh;
-        color:#042d4d;
+        color:#df8642;
     }
     img#sabresmile {
         position: relative;
         margin: auto;
         top: 0;
-        max-width: 80%;
-        margin-top: -40%;
-        border: 5px solid goldenrod;
+        max-width: 60%;
+        margin-top: -20%;
+        border: 5px solid #df8642;
     }
     p.quote {
         position: relative;
-        top: -4vh;
+        display: block;
+        
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
         line-height: 3vh;
         max-width: 80%;
         margin: auto;
+    }
+    p.leadin {
+        position: relative;
+        font-family: 'Optima Italic', Arial, Helvetica, sans-serif;
+        color: #847983;
     }
     iframe.bookings {
         display: initial !important;
@@ -415,7 +425,7 @@ Media
     }
     h2.contact, h2.contactform {
         font-size: 8vw;
-        color:#021b2d;
+        color:#847983;
         text-align: center;
         margin-left: 10%;
         font-style: bold;
@@ -457,7 +467,7 @@ Media
         text-align: center;
         margin-top: 25vh;
         margin-bottom: 2.5vh;
-        color:darkslateblue;
+        color:#df8642;
         z-index: -2;
         
     }
@@ -476,6 +486,7 @@ Media
         padding: 0;
         top: -20vh;
         z-index: -2;
+        color: #042d4d;
     }
     h2#Kensname.Kenspage {
         position: relative;
@@ -491,9 +502,8 @@ Media
         margin: auto 2.5vw;
         text-align: left;
     }
-    p.Kenspage {
-        font-size: 2.5vh;
-    }
+   
+    
     h2.label {
         position: relative;
         font-size: 3vh;
@@ -548,12 +558,42 @@ Media
     span#policy.content {
         z-index: -2;
     }
+    p.privacy {
+        color: #847983;
+    }
+    div.text1, div.text2, div.text3, div.text4 {
+        color: #82aeb1;
+    }
+
+    button#navbar-toggle.schedule {
+        position: relative;
+        left: 99%;
+        margin-top: -10%;
+    }
+    img#profile.profilepic {
+        position: relative;
+        min-width: none;
+        width: 80%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 10%;
+        border: 5px solid #df8642;
+        z-index: -2;
+        
+    }
+    a.project-tile, a.profile-link, a.linkedin {
+        position: relative;
+        text-decoration: underline;
+    } 
+    a.project-tile::on-hover a.project-tile::on-click a.profile-link::on-hover a.profile-link::on-click a.linkedin::on-hover a.linkedin::on-click  {
+        color: #df8642;
+    }
     @media screen and (orientation: portrait) {
     }
 
     @media screen and (orientation: landscape) {  
     }
-
+    
     
 
 @media all and (min-width: 381px) and (max-width: 480px) {
