@@ -50,6 +50,37 @@ Media
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
+    div.thanks-logo {
+        position: relative;
+        display: inline-block;
+    }
+    img.thanks {
+        position: relative;
+        width: 80%;
+        margin-left: 6%;
+        border: 5px solid #df8642;
+        z-index: -2;
+    }
+    h1.thanks {
+        position: relative;
+        text-align: center;
+        color:#82aeb1;
+        font-size: 5.75vh;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
+
+    }
+    p.thanks {
+        position: relative;
+        color:#eca925;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin: auto 2.5%;
+    }
+    h3.thanks {
+        position: relative;
+        margin: 0 2.5%;
+        
+    }
 
     div.#portfolio2.logo {
         position: relative;
