@@ -411,6 +411,17 @@ Media
         height: auto;
         max-height:min-content;
         padding: 0;
+        background-color: #042d4d;
+        background-size: 100%;
+    }
+    iframe#JotFormIFrame-240474876852165 {
+        position: relative;
+        display: block;
+        opacity: 0.7;
+        top:-2.5%;
+        width: 350px;
+        left: -21vw;
+
     }
     h1.lead {
         position: relative;
@@ -432,12 +443,14 @@ Media
     }
     iframe.contactform {
         position: relative;
+        display: block;
+        top: -15vh;
         margin: 0;
         padding: 0;
         max-width: 90%;
         max-height: fit-content;
         max-height: -moz-fit-content;
-        top: -15vh;
+        
         
         z-index: -1;
     }
@@ -526,11 +539,16 @@ Media
    }
    footer#contact1 {
     position: relative;
-    top: 40vh;
+    top: 20vh;
    }
    div#contact2 {
     position: relative;
     display: none;
+   }
+   small.contact {
+    position: relative;
+    display: block;
+
    }
    
     body#privacy {
