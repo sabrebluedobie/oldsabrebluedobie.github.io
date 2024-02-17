@@ -953,7 +953,6 @@ Media
     }
     p.quote {
         position: relative;
-        top: -4vh;
         line-height: 3vh;
         max-width: 80%;
         margin: auto;
