@@ -383,7 +383,10 @@ Media
     }
     p.privacy {
         position: relative;
-        top:-5vh;
+        display: inline-block;
+
+        top:-10vh;
+        visibility: visible;
     }
     
     p.aboutarticle {
@@ -453,6 +456,7 @@ Media
         opacity: 0.7;
         top:-2.5%;
         width: 350px;
+        max-height: 91%;
         left: -21vw;
 
     }
@@ -581,6 +585,8 @@ Media
    small.contact {
     position: relative;
     display: block;
+    margin-top:20%; 
+    z-index: 0;
 
    }
    

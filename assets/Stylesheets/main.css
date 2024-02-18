@@ -139,6 +139,21 @@ span.content, span#policy {
     
     
 }
+h2#lead.contact {
+    position: relative;
+    color:#82aeb1;
+    font-family: 'Optima', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 2.5% 0 2.5%;
+    font-size: 3.5vh;
+}
+p.contact {
+    position: relative;
+    display: inline;
+    margin: 0 2.5%;
+    color:#847983;
+    text-align: center;
+}
 p.documentTitle {
     text-align: center;
     color:#dfe2e5;
@@ -608,16 +623,36 @@ h2.About {
     font-size: 3vw;
 
 }
+h2.payment {
+    position: relative;
+    color:#82aeb1;
+    text-align: center;
+    font-size: 3.5vh;
+    font-family: 'Optima Italic', Arial, Helvetica, sans-serif;
+    margin-top: 4.5%;
+    line-height: 4.5vh;
+}
+p.payment {
+    position: relative;
+    color:#847983;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    
+}
+a.payment1 {
+    position: relative;
+    color:#82aeb1;
+}
 #sabresmile, #dogs, #profile-img {
     vertical-align: center;
 }
 #coupon {
     text-align: center;
     font-size: 4vh;
-    color:#DF8642;
+    color:#eca925;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 3vh;
-    border: 2px solid #DF8642;
+    border: 2px solid #eca925;
     padding: 2vh 0;
 }
 h3.stats {
