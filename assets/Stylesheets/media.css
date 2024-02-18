@@ -305,7 +305,8 @@ Media
         font-size: 3.3333333333333335vw;
     }
     h2.hook {
-        margin: 5vh auto;
+        margin: 12.5% 3%;
+        line-height: 3.5vh;
         position: relative;
         top: -6vh;
         z-index: -2;
