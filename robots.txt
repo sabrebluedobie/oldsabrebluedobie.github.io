@@ -1,6 +1,9 @@
 User-agent: Semrushbot
 Allow: /
 
+User-agent: SEMrushBot-Desktop
+Allow: /
+
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
