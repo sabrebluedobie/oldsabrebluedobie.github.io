@@ -156,11 +156,13 @@ Media
     .primary-header a:hover {
         display: none;
     }
+    
     h1#index {
         position: absolute;
         margin-top: 8.5vh;
-        font-size: 1.75vh;
+        font-size: 3vh;
         text-align: right;
+        color: #df8642;
     }
     h1#schedule {
         position: absolute;
@@ -1252,6 +1254,13 @@ Media
         z-index: -1;
         top: 0vh;
     }
+    img#portfolio4 {
+        position: relative;
+        top: 0;
+        margin-top: -99%;
+        left: 0;
+        max-width: 75%;
+    }
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
@@ -1265,14 +1274,54 @@ Media
         visibility: hidden;
 
     }
+    iframe#JotFormIFrame-240474876852165 {
+        position: relative;
+        display: block;
+        opacity: 0.7;
+        top:-2.5%;
+        width: 100vw;
+        left: -25vw;
+
+    }
+    img.thanks {
+        position: relative;
+        height: 50%;
+        margin-left: 6%;
+        border: 5px solid #df8642;
+        z-index: -2;
+    }
+    h1.thanks {
+        position: relative;
+        top: -250%;
+        text-align: center;
+        color:#82aeb1;
+        font-size: 5.75vh;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
+
+    }
+    p.thanks {
+        position: relative;
+        top: -250%;
+        color:#eca925;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin: auto 2.5%;
+    }
+    h3.thanks {
+        position: relative;
+        top: -480%;
+        margin: 0 2.5%;
+        
+    }
     a.btn-alt {
         position: relative;
         top:-30vh;
     }
     a.payment {
         position: relative;    margin: 0;
-        top: -40vh;
+        top: -10%;
         line-height: 5vh;
+        
     }
     #coupon {
         font-size: 2.5vh;
@@ -1301,8 +1350,21 @@ Media
         max-height: 10%;
         margin-left: auto;
         margin-right: auto;
-        background-color: aliceblue;
+        background-color: #82aeb1;
+        border: 2px solid #fff;
         margin-top: 
+    }
+
+    img#profile.profilepic {
+        position: relative;
+        min-width: none;
+        width: 80%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 10%;
+        border: 5px solid #df8642;
+        z-index: -2;
+        
     }
     .primary-header a:hover {
         display: none;
@@ -1315,13 +1377,17 @@ Media
     }
     h1#schedule {
         position: absolute;
-        margin-top: 9vh;
-        margin-right: 1.5vw;
+        margin-top: 16%;
+        margin-right: 4.5%;
     }
     h1#about1.logo {
         position: absolute;
-        top: 9.5vh;
-        right: 2vw;
+        top: 0;
+        margin-top: 17.5%;
+        right: 2.5%;
+    }
+    body.about {
+        background-color: #042d4d;
     }
     h1#info.logo {
         position: absolute;
@@ -1368,7 +1434,8 @@ Media
         line-height: 3vh;
         display: inline-block;
         z-index: -1;
-        color: #fff;
+        color: #df8642;
+    
        
     }
     h1#contact3 {
@@ -1392,19 +1459,19 @@ Media
     }
     div.text {
         position: relative;
-        color: #000;
+        color: #82aeb1;
     }
     div.text1 {
         position: relative;
-        color: #fff;
+        color: #82aeb1;
         font-family: 'Arapey', 'Times New Roman', serif;
         font-style: italic;
     }
     h3.click {
         position: relative;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
         text-align: center;
-        color:cornsilk
+        color:#df8642;
     }
     .heroimg {
         position: relative;
@@ -1421,20 +1488,14 @@ Media
         position: relative;
     }
     p.caption3 {
-        color: #d2dde6;
+        color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
         font-size: 2vh;
         line-height: 3vh;
         top: -5%;
     }
-    i.statcaption {
-        display:grid;
-        border: 2px solid #042d4d;
-        background-color: lightgray;
-        margin: 0;
-        padding: 0 1.5vw;
-    }
+    
     h3.caption2 {
         text-decoration: underline;
         font-weight: bold;
@@ -1445,7 +1506,7 @@ Media
         position: relative;
         top: 9vh;
         z-index: -2;
-        color: lightblue;
+        color: #82aeb1;
         
     }
     .iframe-container {
@@ -1468,13 +1529,13 @@ Media
     }
     h5.caption1 {
         position: relative;
-        color:#fff;
+        color:#82aeb1;
         top: vh;
     }
     h3.caption2 {
         position: relative;
         margin-top:;
-        color: #fff;
+        color: #df8642;
         text-align: center;
     }
    
@@ -1491,7 +1552,7 @@ Media
     }
     .btn-alt {
         position: relative;
-        border: 0.06944444444444445vw solid #fff;
+        border: 0.06944444444444445vw solid #eca925;
         padding: 1.394700139470014vh 5.0833333333333335vw;
         margin: 0 29vw;
     
@@ -1508,7 +1569,7 @@ Media
         margin-left: 3.5vw;
         text-align: center;
         z-index: -2;
-        top: -10vh
+        
         
     }
     .primary-footer {
@@ -1535,7 +1596,7 @@ Media
     }
     h2.About {
         position: relative;
-        top: -3vh;
+        margin-top: 3%;
         font-size: 3vh;
     }
     #sabresmile, #dogs, img#profile-img {
@@ -1546,7 +1607,6 @@ Media
     }
     p.quote {
         position: relative;
-        top: -4vh;
         line-height: 3vh;
         max-width: 80%;
         margin: auto;
@@ -1556,11 +1616,11 @@ Media
         position: relative;
         margin: auto;
         width: max-content;
-        width: 400px;
+        width: 100%;
         min-width: max-content;
         max-height: 90%;
         height: 2900px;
-        top: -20vh;
+        margin-top: 35%; 
         left: -2vw;
         
         z-index:-2;
@@ -1627,16 +1687,16 @@ Media
         text-align: center;
         margin-top: 25vh;
         margin-bottom: 2.5vh;
-        color:darkslateblue;
+        color:#82aeb1;
         z-index: -2;
         
     }
     p.portfolio {
         position: relative;
-        font-size: 2.5vh;
+        font-size: 2vh;
         line-height: 3.5vh;
         text-align: left;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
         z-index: -2;
         
     }
@@ -1704,12 +1764,17 @@ Media
         position: relative;
         z-index: -2;
     }
+    p.Kenspage {
+        font-size: 2.25vh;
+        line-height: 2.75vh;
+    }
     @media screen and (orientation: portrait) {
     }
 
     @media screen and (orientation: landscape) {  
     }
 }
+
 
 @media all and (min-width: 769px) and (max-width: 1024px) {
     body {
@@ -1754,6 +1819,13 @@ Media
         z-index: -1;
         top: 0vh;
     }
+    img#portfolio4 {
+        position: relative;
+        top: 0;
+        margin-top: -99%;
+        left: 0;
+        max-width: 75%;
+    }
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
@@ -1767,14 +1839,54 @@ Media
         visibility: hidden;
 
     }
+    iframe#JotFormIFrame-240474876852165 {
+        position: relative;
+        display: block;
+        opacity: 0.7;
+        top:-2.5%;
+        width: 100vw;
+        left: -25vw;
+
+    }
+    img.thanks {
+        position: relative;
+        height: 50%;
+        margin-left: 6%;
+        border: 5px solid #df8642;
+        z-index: -2;
+    }
+    h1.thanks {
+        position: relative;
+        top: -250%;
+        text-align: center;
+        color:#82aeb1;
+        font-size: 5.75vh;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
+
+    }
+    p.thanks {
+        position: relative;
+        top: -250%;
+        color:#eca925;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin: auto 2.5%;
+    }
+    h3.thanks {
+        position: relative;
+        top: -480%;
+        margin: 0 2.5%;
+        
+    }
     a.btn-alt {
         position: relative;
         top:-30vh;
     }
     a.payment {
         position: relative;    margin: 0;
-        top: -40vh;
+        top: -10%;
         line-height: 5vh;
+        
     }
     #coupon {
         font-size: 2.5vh;
@@ -1803,8 +1915,21 @@ Media
         max-height: 10%;
         margin-left: auto;
         margin-right: auto;
-        background-color: aliceblue;
+        background-color: #82aeb1;
+        border: 2px solid #fff;
         margin-top: 
+    }
+
+    img#profile.profilepic {
+        position: relative;
+        min-width: none;
+        width: 80%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 10%;
+        border: 5px solid #df8642;
+        z-index: -2;
+        
     }
     .primary-header a:hover {
         display: none;
@@ -1817,13 +1942,17 @@ Media
     }
     h1#schedule {
         position: absolute;
-        margin-top: 9vh;
-        margin-right: 1.5vw;
+        margin-top: 16%;
+        margin-right: 4.5%;
     }
     h1#about1.logo {
         position: absolute;
-        top: 9.5vh;
-        right: 2vw;
+        top: 0;
+        margin-top: 17.5%;
+        right: 2.5%;
+    }
+    body.about {
+        background-color: #042d4d;
     }
     h1#info.logo {
         position: absolute;
@@ -1870,7 +1999,8 @@ Media
         line-height: 3vh;
         display: inline-block;
         z-index: -1;
-        color: #fff;
+        color: #df8642;
+    
        
     }
     h1#contact3 {
@@ -1894,19 +2024,19 @@ Media
     }
     div.text {
         position: relative;
-        color: #000;
+        color: #82aeb1;
     }
     div.text1 {
         position: relative;
-        color: #fff;
+        color: #82aeb1;
         font-family: 'Arapey', 'Times New Roman', serif;
         font-style: italic;
     }
     h3.click {
         position: relative;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
         text-align: center;
-        color:cornsilk
+        color:#df8642;
     }
     .heroimg {
         position: relative;
@@ -1923,20 +2053,14 @@ Media
         position: relative;
     }
     p.caption3 {
-        color: #d2dde6;
+        color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
         font-size: 2vh;
         line-height: 3vh;
         top: -5%;
     }
-    i.statcaption {
-        display:grid;
-        border: 2px solid #042d4d;
-        background-color: lightgray;
-        margin: 0;
-        padding: 0 1.5vw;
-    }
+    
     h3.caption2 {
         text-decoration: underline;
         font-weight: bold;
@@ -1947,7 +2071,7 @@ Media
         position: relative;
         top: 9vh;
         z-index: -2;
-        color: lightblue;
+        color: #82aeb1;
         
     }
     .iframe-container {
@@ -1970,13 +2094,13 @@ Media
     }
     h5.caption1 {
         position: relative;
-        color:#fff;
+        color:#82aeb1;
         top: vh;
     }
     h3.caption2 {
         position: relative;
         margin-top:;
-        color: #fff;
+        color: #df8642;
         text-align: center;
     }
    
@@ -1993,7 +2117,7 @@ Media
     }
     .btn-alt {
         position: relative;
-        border: 0.06944444444444445vw solid #fff;
+        border: 0.06944444444444445vw solid #eca925;
         padding: 1.394700139470014vh 5.0833333333333335vw;
         margin: 0 29vw;
     
@@ -2010,7 +2134,7 @@ Media
         margin-left: 3.5vw;
         text-align: center;
         z-index: -2;
-        top: -10vh
+        
         
     }
     .primary-footer {
@@ -2037,7 +2161,7 @@ Media
     }
     h2.About {
         position: relative;
-        top: -3vh;
+        margin-top: 3%;
         font-size: 3vh;
     }
     #sabresmile, #dogs, img#profile-img {
@@ -2048,7 +2172,6 @@ Media
     }
     p.quote {
         position: relative;
-        top: -4vh;
         line-height: 3vh;
         max-width: 80%;
         margin: auto;
@@ -2058,11 +2181,11 @@ Media
         position: relative;
         margin: auto;
         width: max-content;
-        width: 400px;
+        width: 100%;
         min-width: max-content;
         max-height: 90%;
         height: 2900px;
-        top: -20vh;
+        margin-top: 35%; 
         left: -2vw;
         
         z-index:-2;
@@ -2129,16 +2252,16 @@ Media
         text-align: center;
         margin-top: 25vh;
         margin-bottom: 2.5vh;
-        color:darkslateblue;
+        color:#82aeb1;
         z-index: -2;
         
     }
     p.portfolio {
         position: relative;
-        font-size: 2.5vh;
+        font-size: 2vh;
         line-height: 3.5vh;
         text-align: left;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
         z-index: -2;
         
     }
@@ -2206,12 +2329,17 @@ Media
         position: relative;
         z-index: -2;
     }
+    p.Kenspage {
+        font-size: 2.25vh;
+        line-height: 2.75vh;
+    }
     @media screen and (orientation: portrait) {
     }
 
     @media screen and (orientation: landscape) {  
     }
 }
+
 @media all and (min-width: 1025px) and (max-width: 1200px) {
     body {
         max-width: 100%;
@@ -2255,6 +2383,13 @@ Media
         z-index: -1;
         top: 0vh;
     }
+    img#portfolio4 {
+        position: relative;
+        top: 0;
+        margin-top: -99%;
+        left: 0;
+        max-width: 75%;
+    }
     img#about2.logo a#about3.logo {
         top: 1vh;
     }
@@ -2268,14 +2403,54 @@ Media
         visibility: hidden;
 
     }
+    iframe#JotFormIFrame-240474876852165 {
+        position: relative;
+        display: block;
+        opacity: 0.7;
+        top:-2.5%;
+        width: 100vw;
+        left: -25vw;
+
+    }
+    img.thanks {
+        position: relative;
+        height: 50%;
+        margin-left: 6%;
+        border: 5px solid #df8642;
+        z-index: -2;
+    }
+    h1.thanks {
+        position: relative;
+        top: -250%;
+        text-align: center;
+        color:#82aeb1;
+        font-size: 5.75vh;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
+
+    }
+    p.thanks {
+        position: relative;
+        top: -250%;
+        color:#eca925;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin: auto 2.5%;
+    }
+    h3.thanks {
+        position: relative;
+        top: -480%;
+        margin: 0 2.5%;
+        
+    }
     a.btn-alt {
         position: relative;
         top:-30vh;
     }
     a.payment {
         position: relative;    margin: 0;
-        top: -40vh;
+        top: -10%;
         line-height: 5vh;
+        
     }
     #coupon {
         font-size: 2.5vh;
@@ -2304,8 +2479,21 @@ Media
         max-height: 10%;
         margin-left: auto;
         margin-right: auto;
-        background-color: aliceblue;
+        background-color: #82aeb1;
+        border: 2px solid #fff;
         margin-top: 
+    }
+
+    img#profile.profilepic {
+        position: relative;
+        min-width: none;
+        width: 80%;
+        max-width: 100%;
+        max-height: 100%;
+        margin-left: 10%;
+        border: 5px solid #df8642;
+        z-index: -2;
+        
     }
     .primary-header a:hover {
         display: none;
@@ -2318,13 +2506,17 @@ Media
     }
     h1#schedule {
         position: absolute;
-        margin-top: 9vh;
-        margin-right: 1.5vw;
+        margin-top: 16%;
+        margin-right: 4.5%;
     }
     h1#about1.logo {
         position: absolute;
-        top: 9.5vh;
-        right: 2vw;
+        top: 0;
+        margin-top: 17.5%;
+        right: 2.5%;
+    }
+    body.about {
+        background-color: #042d4d;
     }
     h1#info.logo {
         position: absolute;
@@ -2371,7 +2563,8 @@ Media
         line-height: 3vh;
         display: inline-block;
         z-index: -1;
-        color: #fff;
+        color: #df8642;
+    
        
     }
     h1#contact3 {
@@ -2395,19 +2588,19 @@ Media
     }
     div.text {
         position: relative;
-        color: #000;
+        color: #82aeb1;
     }
     div.text1 {
         position: relative;
-        color: #fff;
+        color: #82aeb1;
         font-family: 'Arapey', 'Times New Roman', serif;
         font-style: italic;
     }
     h3.click {
         position: relative;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
         text-align: center;
-        color:cornsilk
+        color:#df8642;
     }
     .heroimg {
         position: relative;
@@ -2424,20 +2617,14 @@ Media
         position: relative;
     }
     p.caption3 {
-        color: #d2dde6;
+        color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
         font-size: 2vh;
         line-height: 3vh;
         top: -5%;
     }
-    i.statcaption {
-        display:grid;
-        border: 2px solid #042d4d;
-        background-color: lightgray;
-        margin: 0;
-        padding: 0 1.5vw;
-    }
+    
     h3.caption2 {
         text-decoration: underline;
         font-weight: bold;
@@ -2448,7 +2635,7 @@ Media
         position: relative;
         top: 9vh;
         z-index: -2;
-        color: lightblue;
+        color: #82aeb1;
         
     }
     .iframe-container {
@@ -2471,13 +2658,13 @@ Media
     }
     h5.caption1 {
         position: relative;
-        color:#fff;
+        color:#82aeb1;
         top: vh;
     }
     h3.caption2 {
         position: relative;
         margin-top:;
-        color: #fff;
+        color: #df8642;
         text-align: center;
     }
    
@@ -2494,7 +2681,7 @@ Media
     }
     .btn-alt {
         position: relative;
-        border: 0.06944444444444445vw solid #fff;
+        border: 0.06944444444444445vw solid #eca925;
         padding: 1.394700139470014vh 5.0833333333333335vw;
         margin: 0 29vw;
     
@@ -2511,7 +2698,7 @@ Media
         margin-left: 3.5vw;
         text-align: center;
         z-index: -2;
-        top: -10vh
+        
         
     }
     .primary-footer {
@@ -2538,7 +2725,7 @@ Media
     }
     h2.About {
         position: relative;
-        top: -3vh;
+        margin-top: 3%;
         font-size: 3vh;
     }
     #sabresmile, #dogs, img#profile-img {
@@ -2549,7 +2736,6 @@ Media
     }
     p.quote {
         position: relative;
-        top: -4vh;
         line-height: 3vh;
         max-width: 80%;
         margin: auto;
@@ -2559,11 +2745,11 @@ Media
         position: relative;
         margin: auto;
         width: max-content;
-        width: 400px;
+        width: 100%;
         min-width: max-content;
         max-height: 90%;
         height: 2900px;
-        top: -20vh;
+        margin-top: 35%; 
         left: -2vw;
         
         z-index:-2;
@@ -2630,16 +2816,16 @@ Media
         text-align: center;
         margin-top: 25vh;
         margin-bottom: 2.5vh;
-        color:darkslateblue;
+        color:#82aeb1;
         z-index: -2;
         
     }
     p.portfolio {
         position: relative;
-        font-size: 2.5vh;
+        font-size: 2vh;
         line-height: 3.5vh;
         text-align: left;
-        font-family: 'Arapey', 'Times New Roman', Times, serif;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
         z-index: -2;
         
     }
@@ -2707,6 +2893,11 @@ Media
         position: relative;
         z-index: -2;
     }
+    p.Kenspage {
+        font-size: 2.25vh;
+        line-height: 2.75vh;
+    }
+
     @media screen and (orientation: portrait) {
     }
 
