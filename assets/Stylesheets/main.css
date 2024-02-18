@@ -475,6 +475,9 @@ Primary footer
 Custom Styles
 ===========================================
 */
+a.thanks {
+  display: none;
+}
 
 body {
     background: #042d4d;
