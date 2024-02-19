@@ -505,6 +505,16 @@ h3.caption2 {
     font-weight: 700;
     font-size: 1.9444444444444444vw
 }
+h3.article {
+    position: relative;
+    color:#82aeb1;
+    font-size: 2.5vh;
+    border-top: 3px solid #847983;
+    padding-top: 7.5%;
+    margin: 10% 6% 0 6%;
+    padding-bottom: 0;
+    text-align: center;
+}
 
 .container {
     margin: auto
@@ -802,8 +812,9 @@ p.article {
     position: relative;
     color:#847983;
     font-family: 'Optima', Arial, Helvetica, sans-serif;
-    margin: 6% 6%;
+    margin: 0 6% 6% 6%;
     text-align: justify;
+    top: -1%;
 }
 
 strong {
