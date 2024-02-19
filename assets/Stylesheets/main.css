@@ -572,6 +572,10 @@ p.contact {
 p#info4.article {
     top: -10%;
 }
+h3#portfolio6.article {
+    position: relative;
+    margin-top: -25%;
+}
 .contactnav {
     margin-bottom: 5%
 }
