@@ -573,6 +573,10 @@ p.contact {
 .contactnav {
     margin-bottom: 5%
 }
+iframe.widget {
+    position: relative;
+    margin: auto;
+}
 
 iframe.bookings {
     width: 25%;
