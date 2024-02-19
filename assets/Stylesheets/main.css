@@ -816,6 +816,11 @@ p.article {
     text-align: justify;
     
 }
+iframe.seo {
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
 
 strong {
     font-weight: 400
