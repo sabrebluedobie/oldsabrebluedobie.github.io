@@ -569,7 +569,9 @@ p.contact {
     max-width: 60%;
     max-height: auto
 }
-
+p#info4.article {
+    top: -10%;
+}
 .contactnav {
     margin-bottom: 5%
 }
