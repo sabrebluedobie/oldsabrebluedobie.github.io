@@ -87,13 +87,9 @@ h5,
 p {
     margin-bottom: 2.2vh;
 }
-h1.logo {
-    width: 60%;
-}
-
 
 body {
-    background-color: #042d4d;
+    color: #042d4d;
     margin: 2.5vw 2.5vh;
     width: 100vw;
     height: 100vh;
@@ -174,19 +170,11 @@ span.toc {
     width: 40vw;
     height: 10vh;
 }
-a.btn.btn-alt {
-    position: relative;
-   
-}
-.btn-alt {
-    position: relative;
-    border: 0.06944444444444445vw solid #eca925;
-    padding: 1.394700139470014vh 5.0833333333333335vw;
-    margin: 0 29vw;
 
 .btn-alt {
     border: .06944444444444445vw solid #eca925;
     padding: 1.394700139470014vh 2.0833333333333335vw;
+    margin: 0 40vw;
     text-align: center;
 }
 
@@ -248,12 +236,12 @@ h2.caption4 {
     text-align: center;
 }
 
-article.index {
-    color: #82aeb1;
+article.wizard {
+    color: #eca925;
     font-size: 2.5vh;
     line-height: 3.5vh;
     margin: 5vh 5vw 0 5vw;
-    text-align: 
+    text-align: set;
 }
 
 h2.wizard {
@@ -353,29 +341,11 @@ img.logo {
 }
 
 img.frontpgimg {
-    position: relative;
-    display: flex;
-    width: 50%;
+    min-width: 0;
+    width: 40%;
     max-width: 100vw;
-    min-width: auto;
-        max-height: 10%;
-        background-color: #82aeb1;
-        border: 2px solid #fff; 
 }
-body.info {
-    color: #042d4d;
-}
-div#contact.infocontact {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    color: #042d4d;
-}
-h5.caption1 {
-    position: relative;
-    display: flex;
-    margin: auto;
-}
+
 
 div.iframe-container {
     display: flex;
@@ -394,7 +364,6 @@ iframe.frontend {
     height: 45vh;
     border-radius: 3px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .9);
-    margin: -50% 0 0 0;
 }
 
 img.construction {
@@ -504,7 +473,7 @@ h3.caption2 {
     font-weight: 700;
     font-size: 1.9444444444444444vw
 }
-h3#webdev.article {
+h3.article {
     position: relative;
     color:#82aeb1;
     font-size: 2.5vh;
@@ -513,7 +482,6 @@ h3#webdev.article {
     margin: 10% 6% 0 6%;
     padding-bottom: 0;
     text-align: center;
-    font-family: 'Optima', Arial, Helvetica, sans-serif;
 }
 
 .container {
