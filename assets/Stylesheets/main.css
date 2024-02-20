@@ -497,6 +497,13 @@ img.socialmedia {
     max-width: 100px;
 
 }
+div.youtube-player {
+    position: relative;
+    display: flex;
+    width: 80%;
+    justify-self: center;
+    
+}
 iframe.facebook {
     position: relative;
     margin: auto;
