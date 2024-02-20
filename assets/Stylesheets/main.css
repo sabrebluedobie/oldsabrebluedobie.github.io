@@ -158,29 +158,42 @@ span.toc {
     color: #dfe2e5;
 }
 
-.btn {
+a.btn  {
     color: #eca925;
+    order: 5;
     cursor: pointer;
     border-radius: 5vw;
-    display: inline-block;
+    display: flex;
     font-weight: 400;
     letter-spacing: .034722222222222224vw;
     text-transform: uppercase;
     margin: 0;
-    width: 40vw;
-    height: 10vh;
+    width: 36vw;
+    height: 6vh;
+
+   
 }
 
-.btn-alt {
+a.btn-alt {
+    display: flex;
+    order: 5;
     border: .06944444444444445vw solid #eca925;
     padding: 1.394700139470014vh 2.0833333333333335vw;
-    margin: 0 40vw;
     text-align: center;
 }
 
-.btn-alt:hover {
+a.btn-alt:hover {
     background: #df8642;
     color: #042d4d;
+}
+
+div.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    width: 95%;
+    height: 35vh;
 }
 
 div.dots {
@@ -345,6 +358,8 @@ img.logo {
 }
 
 img.frontpgimg {
+    display: flex;
+    order: 2;
     min-width: 0;
     width: 40%;
     max-width: 100vw;
@@ -363,6 +378,7 @@ iframe.frontend {
     display: -ms-grid;
     display: grid;
     align-self: center;
+    justify-content: center;
     max-width: 60%;
     width: 100vw;
     height: 45vh;
@@ -466,6 +482,9 @@ img.sabrespritereg {
 }
 
 p.caption3 {
+    position: relative;
+    display: flex;
+    order: 4;
     font-family: Arapey, serif;
     font-style: italic;
     color: #847983;

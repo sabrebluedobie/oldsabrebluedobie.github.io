@@ -43,13 +43,14 @@
         position: relative;
         margin: auto;
         width: 95%;
-        height: 2525px;
+        height: 25px;
+        margin-top: -2.5%;
         
         z-index:-2;
     }
    a.logo img.logo {
         position: absolute;
-        max-width: 25%;
+        max-width: 100%;
         z-index: -1;
         top: 0vh;
     }
@@ -113,8 +114,8 @@
         
     }
     a.btn-alt {
-        position: relative;
-        top:-30vh;
+        display: flex;
+        text-align: center;
     }
     a.payment {
         position: relative;    margin: 0;
@@ -141,15 +142,15 @@
     }
     
     img.frontpgimg {
-        position: relative;
+        display: flex;
         min-width: auto;
-        max-width: 40%;
-        max-height: 10%;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 50%;
+        max-height: 50%;
         background-color: #82aeb1;
         border: 2px solid #fff;
-        margin-top: -40%;
+        top: -30vh;
+    
+       
     }
 
     img#profile.profilepic {
@@ -289,12 +290,16 @@
         position: relative;
     }
     p.caption3 {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        top: -10vh;
         color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
         font-size: 2vh;
         line-height: 3vh;
-        top: -5%;
+        width: 95%;
     }
     
     h3.caption2 {
@@ -306,21 +311,12 @@
         margin: 7.5% 3%;
         position: relative;
         line-height: 4vh;
+        top: 1.5%;
         z-index: -2;
         color: #82aeb1;
         
     }
-    .iframe-container {
-        position: relative;
-        top:-2.5vh;
-        margin: 0;
-        z-index: -2;
-        
-    }
-    iframe.frontend {
-        max-width: 80%;
-        max-height: 70%;
-    }
+    
    
     img.venngage {
         position: relative;
@@ -328,35 +324,32 @@
         max-height: 100%;
         
     }
-    h5.caption1 {
-        position: relative;
-        color:#82aeb1;
-        top: vh;
+    h5#contact5 {
+        display: flex;
+        color:#df8642;
+        order: 1;
+        top: -35vh;
+    
     }
-    h3.caption2 {
-        position: relative;
-        margin-top:;
-        color: #df8642;
-        text-align: center;
-    }
+    
    
     h2.caption4 {
         margin: 5vh auto;
         position: relative;
         margin: 0;
         padding: 0;
-        top: -15vh;
+     
     }
-    a.btn.btn-alt {
-        position: relative;
-        margin-top: 5%;
-    }
-    .btn-alt {
-        position: relative;
-        border: 0.06944444444444445vw solid #eca925;
-        padding: 1.394700139470014vh 5.0833333333333335vw;
-        margin: 0 29vw;
     
+    a.btn {
+        display: flex;
+        top: -38vh;
+    }
+    a.btn-alt a.btn  {
+        display: flex;
+        order: 5;
+        border: 0.06944444444444445vw solid #eca925; 
+        
         
     }
    
@@ -380,7 +373,7 @@
     div#frontend.youtube-player {
         position: relative;
         display: inline-block;
-        margin-top: 7.5%;
+        margin-top: 18.5%;
     }
     .primary-footer {
         display: block;
