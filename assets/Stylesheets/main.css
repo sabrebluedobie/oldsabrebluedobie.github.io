@@ -501,6 +501,11 @@ iframe.facebook {
     position: relative;
     margin: auto;
 }
+p#socialmedia {
+    position: relative;
+    text-decoration: underline;
+    margin: auto;
+}
 
 h1.lead {
     color: #847983;
