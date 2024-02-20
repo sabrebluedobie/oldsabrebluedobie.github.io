@@ -134,9 +134,7 @@
         font-size: 5vh;
         line-height: 5.5vh;
     }
-    i.statcaption {
-        top: -5vh;
-    }
+    
     img.sabrespritereg {
         height: 6vh;
         width: 10vw;
@@ -151,7 +149,7 @@
         margin-right: auto;
         background-color: #82aeb1;
         border: 2px solid #fff;
-        margin-top: 
+        margin-top: -40%;
     }
 
     img#profile.profilepic {
@@ -305,9 +303,9 @@
         font-size: 3.3333333333333335vw;
     }
     h2.hook {
-        margin: 5vh auto;
+        margin: 7.5% 3%;
         position: relative;
-        top: 9vh;
+        line-height: 4vh;
         z-index: -2;
         color: #82aeb1;
         
@@ -328,7 +326,7 @@
         position: relative;
         max-width: 100%;
         max-height: 100%;
-        top:-10vh;
+        
     }
     h5.caption1 {
         position: relative;
@@ -374,6 +372,15 @@
         z-index: -2;
         
         
+    }
+    p#info4.article {
+        position: relative;
+        top: 12.5%;
+    }
+    div#frontend.youtube-player {
+        position: relative;
+        display: inline-block;
+        margin-top: 7.5%;
     }
     .primary-footer {
         display: block;

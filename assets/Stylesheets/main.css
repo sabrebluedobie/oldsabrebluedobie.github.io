@@ -201,7 +201,7 @@ body {
 
 article.description {
     color: #847983;
-    max-width: 90vw;
+    max-width: 90%;
     margin-left: 5vw;
     margin-right: 10vw;
 }
@@ -224,10 +224,14 @@ p.quote {
 }
 
 h2.hook {
+    position: relative;
+    display: flex;
+    word-wrap:normal;
     margin: 5vh auto 2.5vh auto;
     font-weight: 400;
     text-decoration: underline;
     text-align: center;
+
 }
 
 h2.caption4 {
@@ -563,9 +567,7 @@ p.contact {
     max-width: 60%;
     max-height: auto
 }
-p#info4.article {
-    top: -10%;
-}
+
 h3#portfolio6.article {
     position: relative;
     margin-top: -25%;

@@ -46,10 +46,90 @@
 
 	<link rel="canonical" href="https://www.bluedobiedev.com/info.html">
     <link rel="shortcut icon" href="assets/images/home/sabreSprite.ico">
+
+	<style>
+	.youtube-player iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		background: 0 0;
+	}
+	.youtube-player img {
+		object-fit: cover;
+		display: block;
+		left: 0;
+		bottom: 0;
+		margin: auto;
+		max-width: 100%;
+		width: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		border: none;
+		height: auto;
+		cursor: pointer;
+		-webkit-transition: 0.4s all;
+		-moz-transition: 0.4s all;
+		transition: 0.4s all;
+	}
+	.youtube-player img:hover {
+		-webkit-filter: brightness(75%);
+		filter: brightness(75%);
+	}
+	.youtube-player .play {
+		height: 48px;
+		width: 68px;
+		left: 50%;
+		top: 50%;
+		margin-left: -34px;
+		margin-top: -24px;
+		position: absolute;
+		background: url(https://i.ibb.co/j3jcJKv/yt.png) no-repeat;
+		cursor: pointer;
+	}
+	</style>
 	</head>
 	
 	<body>
-			
+		<script>
+			/*
+			 * Light YouTube Embeds by @labnol
+			 * Credit: https://www.labnol.org/
+			 */
+		  
+			function labnolIframe(div) {
+			  var iframe = document.createElement('iframe');
+			  iframe.setAttribute('src', 'https://www.youtube.com/embed/' + div.dataset.id + '?autoplay=1');
+			  iframe.setAttribute('frameborder', '0');
+			  iframe.setAttribute('allowfullscreen', '1');
+			  iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+			  div.parentNode.replaceChild(iframe, div);
+			}
+		  
+			function initYouTubeVideos() {
+			  var playerElements = document.querySelectorAll('.youtube-player');
+			  for (var n = 0; n < playerElements.length; n++) {
+				var videoId = playerElements[n].dataset.id;
+				var div = document.createElement('div');
+				div.setAttribute('data-id', videoId);
+				var thumbNode = document.createElement('img');
+				thumbNode.src = '//i.ytimg.com/vi/ID/hqdefault.jpg'.replace('ID', videoId);
+				div.appendChild(thumbNode);
+				var playButton = document.createElement('div');
+				playButton.setAttribute('class', 'play');
+				div.appendChild(playButton);
+				div.onclick = function () {
+				  labnolIframe(this);
+				};
+				playerElements[n].appendChild(div);
+			  }
+			}
+		  
+			document.addEventListener('DOMContentLoaded', initYouTubeVideos);
+		  </script>	
 		
 		<header id="navbar">
 			<nav class="navbar-container container">
@@ -82,17 +162,17 @@
 
 		  <a id="info2" class="logo" href="https://www.bluedobiedev.com"><img id="info3" class="logo" src="assets/images/home/bluedobielogo-1.ico" title="#bluedobie Developing" alt="blue doberman leaping out of a MacBook, logo #bluedobie Developing"></a>
 			
-				<h1 id="info" class="logo">Developing Dreams <br>by<br> #bluedobie Web Developing</h1>
+				<h1 id="info" class="logo">#bluedobie Web Developing Info page</h1>
 			
 
 			
 
         <h2 class="hook">Info page: What is a front-end developer and why is a web designer important?</h2><br>
 			
-        <div class="iframe-container">
-            <iframe class="frontend" width="800" height="400" src="https://www.youtube.com/embed/qyHyFsT7Hig" aria-label="What is Front End Developing? live captions available" loading="lazy" title="Frontend Development explained in 2 minutes // Tech in 2"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
-        </div>
-
+       
+            <div id="frontend" class="youtube-player" data-id="qyHyFsT7Hig"></div>
+       
+		
 		<p id="info4" class="article">A front-end developer is like a superhero of the internet, making websites look awesome and easy to use. Imagine you have a favorite website, maybe a game or a fun place to learn new things. A front-end developer is the person behind the scenes who makes all of that magic happen.<br><br>
 
 			So, what does a front-end developer do? Well, think of a website as a house. The front-end developer is like the decorator who chooses the colors, arranges the furniture, and makes sure everything looks fantastic. They work on the part of the website that you see and interact with – the buttons you click, the pictures you see, and the cool animations that make everything come alive.<br><br>
