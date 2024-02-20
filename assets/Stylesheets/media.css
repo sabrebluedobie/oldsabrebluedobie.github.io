@@ -36,7 +36,7 @@
         padding-bottom: 0;
         margin-bottom: 0;
         max-width: 100%;
-        margin: 0;
+        margin:0;
     }
     iframe#bookings2 {
         display: block !important;
@@ -49,7 +49,7 @@
     }
    a.logo img.logo {
         position: absolute;
-        max-width: 25%;
+        max-width: 100%;
         z-index: -1;
         top: 0vh;
     }
@@ -80,7 +80,6 @@
         top:-2.5%;
         width: 100vw;
         left: -25vw;
-
     }
     img.thanks {
         position: relative;
@@ -117,7 +116,8 @@
         top:-30vh;
     }
     a.payment {
-        position: relative;    margin: 0;
+        position: relative;    
+        margin: 0;
         top: -10%;
         line-height: 5vh;
         
@@ -134,9 +134,7 @@
         font-size: 5vh;
         line-height: 5.5vh;
     }
-    i.statcaption {
-        top: -5vh;
-    }
+   
     img.sabrespritereg {
         height: 6vh;
         width: 10vw;
@@ -144,14 +142,7 @@
     
     img.frontpgimg {
         position: relative;
-        min-width: auto;
-        max-width: 40%;
-        max-height: 10%;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: #82aeb1;
-        border: 2px solid #fff;
-        margin-top: 
+        
     }
 
     img#profile.profilepic {
@@ -170,8 +161,9 @@
     }
     h1#index {
         position: absolute;
-        margin-top: 8.5vh;
-        font-size: 1.75vh;
+        margin: 17% 3.5% 0 0;
+        width: 70%;
+        font-size: 2.5vh;
         text-align: right;
     }
     h1#schedule {
@@ -224,7 +216,7 @@
     
     
    h1.logo {
-        font-size: 2vh;
+        
         position: absolute;
         text-align: right;
         right: 0;
@@ -246,6 +238,7 @@
     div.slideshow-container {
         position: relative;
         z-index:-2;
+        width: 90%;
     }
 
     div.slideshow-container1 {
@@ -270,6 +263,7 @@
         position: relative;
         font-family: 'Optima Bold', Arial, Helvetica, sans-serif;
         text-align: center;
+        margin: 0 3.75% 0 0;
         color:#df8642;
     }
     .heroimg {
@@ -301,13 +295,13 @@
         font-size: 3.3333333333333335vw;
     }
     h2.hook {
-        margin: 5vh auto;
+        margin: 15% 4%;
         position: relative;
-        top: 9vh;
         z-index: -2;
         color: #82aeb1;
         
     }
+    
     .iframe-container {
         position: relative;
         top:-2.5vh;
@@ -899,11 +893,7 @@
         max-height: 100%;
         top:-10vh;
     }
-    h5.caption1 {
-        position: relative;
-        color:#82aeb1;
-        top: vh;
-    }
+    
     h3.caption2 {
         position: relative;
         margin-top:;
