@@ -487,6 +487,20 @@ h3.article {
 .container {
     margin: auto
 }
+div.socialmedia {
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+}
+img.socialmedia {
+    min-width: none;
+    max-width: 100px;
+
+}
+iframe.facebook {
+    position: relative;
+    margin: auto;
+}
 
 h1.lead {
     color: #847983;
