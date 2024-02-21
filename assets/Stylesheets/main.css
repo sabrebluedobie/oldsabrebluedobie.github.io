@@ -599,16 +599,11 @@ iframe.widget {
     margin: auto;
 }
 
-iframe.bookings {
-    width: 25%;
-    margin: auto;
-    max-height: max-content
-}
 
-.bookings {
-    display: inline-block;
-    margin-left: 25%;
-    margin-top: 5%
+div.bookings {
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .aboutarticle {
