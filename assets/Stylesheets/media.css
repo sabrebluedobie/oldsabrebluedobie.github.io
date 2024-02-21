@@ -55,11 +55,12 @@
         top: 0vh;
     }
     img#portfolio4 {
-        position: relative;
-        top: 0;
-        margin-top: -99%;
-        left: 0;
-        max-width: 75%;
+       top: 7.5vh;
+       max-width: 200vw;
+       min-width: auto;
+       
+        
+       
     }
     img#about2.logo a#about3.logo {
         top: 1vh;
@@ -193,10 +194,16 @@
         top: -2.5%;
         right: 0;
     }
+    div#portfolio2 {
+        display: flex;
+        flex-direction: row;
+        
+    }
     h1#portfolio {
-        position: relative;
-        margin-top: -25vh;
-        display: inline;
+        position: absolute;
+        top: 15vh;
+        
+        
 
     }
     div.logo {
@@ -429,8 +436,7 @@
         margin-top: 5%;
         left: -2vw;
         visibility: visible;
-        
-        z-index: 0;
+        z-index: -2;
     }
     section.row-alt {
         position: relative;
