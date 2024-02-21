@@ -246,7 +246,8 @@
     }
     h1#contact3 {
         position: relative;
-        margin-right: 1.5vw;
+        right: 0;
+        margin-left: 65%;
         z-index: -1;
     }
    

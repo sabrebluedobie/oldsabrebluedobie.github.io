@@ -113,6 +113,16 @@ span.content {
     text-align: center;
     color: #dfe2e5;
 }
+a.review {
+    position: relative;
+    margin: auto;
+}
+p.review {
+    position: relative;
+    margin: auto;
+    color: #82aeb1;
+    margin-bottom: 5%;
+}
 
 h2#lead.contact {
     position: relative;
