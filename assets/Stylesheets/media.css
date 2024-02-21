@@ -321,7 +321,8 @@ h1.logo {
 }
 h1#contact3.logo {
     position: relative;
-    margin-left: 65%;
+    right: 25%;
+    width: 55%;
     z-index: -1;
     top: -16vh;
 }
