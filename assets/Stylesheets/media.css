@@ -152,9 +152,32 @@
     
        
     }
+    .box {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    p {
+        font-size: 17px;
+        align-items: center;
+    }
+    h1.booking {
+        position: relative;
+        color: #82aeb1;
+        font-size: 2.5vh;
+        line-height: 3.5vh;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-top: 2.5%;
+        margin: 2.5% 3%;
+        z-index: -2;
+    }
     img#profile.profilepic {
         position: relative;
+        margin-top: 4%;
         min-width: none;
         width: 80%;
         max-width: 100%;
@@ -477,6 +500,7 @@
     }
     header#navbar {
         position: relative;
+        width: 98%;
         z-index: 0;
     }
     nav.navbar-container .container {

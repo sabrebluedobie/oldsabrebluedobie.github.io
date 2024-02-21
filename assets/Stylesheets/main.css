@@ -116,6 +116,7 @@ span.content {
 a.review {
     position: relative;
     margin: auto;
+    z-index: -2;
 }
 p.review {
     position: relative;
