@@ -18,7 +18,7 @@ div.contact{
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-top:20%;
+    margin-top:120%;
     width:95%;
     height:35vh}
 
@@ -955,7 +955,7 @@ h5#contact5 {
         display: flex;
         align-self: center;
         justify-self: center;
-        top: -10vh;
+        top: 20vh;
         color: #82aeb1;
         font-size: 3.3333333333333335vw;
         position: relative;
@@ -982,6 +982,7 @@ h5#contact5 {
    
     img.venngage {
         position: relative;
+        top: 30%;
         max-width: 100%;
         max-height: 100%;
         
@@ -990,7 +991,7 @@ h5#contact5 {
         display: flex;
         color:#df8642;
         order: 1;
-        top: -35vh;
+        top: -40vh;
     
     }
     
@@ -1005,13 +1006,15 @@ h5#contact5 {
     
     a.btn {
         display: flex;
-        top: -38vh;
+        top: -10vh;
+        text-align: center;
+        width: 38vw;
     }
     a.btn-alt a.btn  {
         display: flex;
         order: 5;
         border: 0.06944444444444445vw solid #eca925; 
-        
+        text-align: center;
         
     }
    
