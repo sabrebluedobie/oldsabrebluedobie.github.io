@@ -14,6 +14,14 @@ h2.label {
     margin: 0;
     padding: 0;
 }
+div.contact{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:20%;
+    width:95%;
+    height:35vh}
+
 div.lead.container {
     position: relative;
     padding: 0;
@@ -124,7 +132,7 @@ section.hero-container {
 }
 a.logo img.logo {
     position: absolute;
-    max-width: 25%;
+    max-width: 100%
     z-index: -1;
     top: 1vh;
 }
@@ -186,9 +194,21 @@ a#tagline.tagline, h2.tagline {
     display: none;
     visibility: hidden;
 }
+a.btn {
+    display: flex;
+    top: -18vh;
+    text-align: center;
+}
 a.btn-alt {
-    position: relative;
-    top: -30vh;
+    display: flex;
+    order: 5;
+    border: 0.6vw solid #eca925;
+    width: 41vw;
+    height: 6.5vh;
+    text-align: center;
+
+    
+    
 }
 a.payment {
     position: relative;
@@ -212,17 +232,13 @@ img.sabrespritereg {
     width: 10vw;
 }
 img.frontpgimg {
-    position: relative;
+    display: flex;
     min-width: auto;
-    min-width: -moz-fit-content;
-    max-width: 40vw;
-    max-height: auto;
-    max-height: -moz-fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
     background-color: #82aeb1;
     border: 2px solid #fff;
-    top: -25;
+    margin-top: -30vh;
 }
 .primary-header a:hover {
     display: none;
@@ -252,7 +268,7 @@ h1#about1.logo {
 h1#info.logo {
     position: absolute;
     margin-top: 10.5vh;
-    margin-right: 2.5vw;
+    margin-left: 65%;
 }
 h1#portfolio.logo {
     position: absolute;
@@ -352,15 +368,18 @@ h3.click {
     position: relative;
 }
 p.caption3 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
     color: #82aeb1;
     font-size: 3.3333333333333335vw;
     position: relative;
-    display: block;
     font-size: 2vh;
     line-height: 3vh;
-    top: 7.5vh;
-    margin: auto 3.5vw;
+    width: 95%;
+    top: 50%;
 }
+
 h3.caption2 {
     text-decoration: underline;
     font-weight: 700;
@@ -599,7 +618,17 @@ iframe.facebook {
     margin-bottom: 5%;
     padding-bottom:  2%;
 }
+p#info4.article {
+    position: relative;
+    top: 12.5%;
+}
+h5#contact5 {
+    display: flex;
+    color:#df8642;
+    order: 1;
+    top: -35vh;
 
+}
     
 
 @media all and (min-width: 381px) and (max-width: 480px) {
