@@ -2474,7 +2474,9 @@ h5#contact5 {
     }
    a.logo img.logo {
         position: absolute;
-        max-width: 25%;
+        margin-top: 8%;
+        width: 15%;
+        height: 100%;
         z-index: -1;
         top: 0vh;
     }
@@ -2604,8 +2606,9 @@ h5#contact5 {
     }
     h1#index {
         position: absolute;
-        margin-top: 8.5vh;
-        font-size: 1.75vh;
+        margin-top: 12.5vh;
+        font-size: 5vh;
+        right: 21%;
         text-align: right;
     }
     h1#schedule {
@@ -2658,13 +2661,11 @@ h5#contact5 {
     
     
    h1.logo {
-        font-size: 2vh;
         position: absolute;
         text-align: right;
-        right: 0;
         padding: 0;
         margin-top: 0;
-        line-height: 3vh;
+        line-height: 6vh;
         display: inline-block;
         z-index: -1;
         color: #df8642;
@@ -2680,6 +2681,7 @@ h5#contact5 {
     div.slideshow-container {
         position: relative;
         z-index:-2;
+        margin-top: 10%;
     }
 
     div.slideshow-container1 {
@@ -2894,13 +2896,18 @@ h5#contact5 {
         
         z-index: -1;
     }
+    h2#home.home-link {
+        font-size-adjust: 0.5;
+    }
     header#navbar {
         position: relative;
         z-index: 0;
+        width: 98%;
     }
     nav.navbar-container .container {
         position: relative;
         z-index: 0;
+        
     }
     nav.contact {
         position: relative;
@@ -2987,7 +2994,6 @@ h5#contact5 {
    }
    body.index {
     position: absolute;
-    margin: 0 1.5vw;
    }
     
     section.row-alt {
