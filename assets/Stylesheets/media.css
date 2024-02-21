@@ -2435,7 +2435,7 @@ h5#contact5 {
     }
 }
 
-@media all and (min-width: 1025px) and (max-width: 1200px) {
+@media all and (min-width: 1025px) and (max-width: 2000px) {
     body {
         max-width: 100%;
     }
@@ -2474,8 +2474,8 @@ h5#contact5 {
     }
    a.logo img.logo {
         position: absolute;
-        margin-top: 8%;
-        width: 15%;
+        margin-top: 5%;
+        width: 12%;
         height: 100%;
         z-index: -1;
         top: 0vh;
@@ -2606,15 +2606,16 @@ h5#contact5 {
     }
     h1#index {
         position: absolute;
-        margin-top: 12.5vh;
+        margin-top: -12.5vh;
         font-size: 5vh;
         right: 21%;
         text-align: right;
     }
     h1#schedule {
         position: absolute;
-        margin-top: 16%;
+        margin-top: 5%;
         margin-right: 4.5%;
+        font-size: 3.5vh;
     }
     h1#about1.logo {
         position: absolute;
@@ -2853,17 +2854,35 @@ h5#contact5 {
         justify-content: center;
     }
 
+    h1.booking {
+        position: relative;
+        color: #82aeb1;
+        font-size: 2.5vh;
+        line-height: 3.5vh;
+        font-family: 'Optima', Arial, Helvetica, sans-serif;
+        font-style: italic;
+        top: 30%;
+        margin: 2.5% 3%;
+        z-index: -2;
+    }
+
+    div.bookings{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     iframe.bookings {
         display: flex;
         margin: auto;
+        width: max-content;
         width: 90%;
-        height: 5%;
-        max-height: 90%;
+        min-width: max-content;
+        max-height: 100%;
+        height: 1000px;
+        margin-top: 5%;
         left: -2vw;
-        z-index:-2;
-        border: 1px solid black;
-        top: -10%;
-            
+        visibility: visible;
+        z-index: -2;
     }
 
     
