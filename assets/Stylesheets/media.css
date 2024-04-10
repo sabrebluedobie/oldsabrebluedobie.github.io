@@ -1904,9 +1904,9 @@ h5#contact5 {
     }
    a.logo img.logo {
         position: absolute;
-        max-width: 25%;
+        max-width: 12.5%;
         z-index: -1;
-        top: 0vh;
+        top: 5%;
     }
     iframe#bookings2 {
         display: block !important;
@@ -2034,8 +2034,9 @@ h5#contact5 {
     }
     h1#index {
         position: absolute;
-        margin-top: 8.5vh;
-        font-size: 1.75vh;
+        margin-top: 15vh;
+        margin-right: -8vw;
+        font-size: 3vh;
         text-align: right;
     }
     h1#schedule {
@@ -2478,7 +2479,7 @@ h5#contact5 {
    a.logo img.logo {
         position: absolute;
         margin-top: 5%;
-        width: 12%;
+        width: auto;
         height: 100%;
         z-index: -1;
         top: 0vh;
